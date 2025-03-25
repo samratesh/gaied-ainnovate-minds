@@ -1,15 +1,17 @@
-from ocr import ocr_func
 from Classification import classify_email
-from duplicateCheck import duplicate_check
-from processEML import process_eml
-eml_path = '/Users/amratesh/123.eml' # Path to the email file
+from DuplicateCheck import duplicate_check
+from ProcessEML import process_eml
+from Extraction import extract_data
+
+eml_path = '.123.eml' # Path to the email file
 
 
 def process_email(eml_path):
     if duplicate_check(eml_path): # Check if the email is a duplicate
         return "Email is a duplicate"
     email_data = process_eml(eml_path) # Process the email
-    type = classify_email(email_data) # Classify the email
-    return type
+    request_type = classify_email(email_data) # Classify the email
+    extracted_data = extract_data(email_data, request_type) # Extract the data
+    return extracted_data
 
 print(process_email(eml_path))

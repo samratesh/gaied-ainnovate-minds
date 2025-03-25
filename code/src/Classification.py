@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from langchain.prompts import SystemMessagePromptTemplate, ChatPromptTemplate, HumanMessagePromptTemplate
 from langchain.output_parsers import PydanticOutputParser
 from enum import Enum
-from llm import call_gemini
+from LLM import call_gemini
 import json
 from types import SimpleNamespace
 
@@ -48,9 +48,5 @@ def classify_email(email_body):
                                     raw_file_data=email_body,
                                     postamble=postamble).to_messages()
 
-    response = call_gemini(request)
-    response = response[response.find('{'):]
-    response = response[:response.rfind('}')+1]
-
-    j = json.loads(response)
-    return EmailClassification(**j)
+    response = call_gemini(request, parser)
+    return response

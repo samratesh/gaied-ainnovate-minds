@@ -6,10 +6,12 @@ os.environ["GOOGLE_API_KEY"] = ""
 
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro", temperature=0.1)
 
-def call_gemini(request):
-    response = llm.invoke(request)
+def call_gemini(request, parser):
+    chain =  llm | parser
 
-    if response and response.content:
-        return response.content
+    response = chain.invoke(request)
+
+    if response:
+        return response
     else:
         return "No content received"

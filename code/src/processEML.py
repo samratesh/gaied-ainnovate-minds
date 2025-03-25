@@ -2,13 +2,13 @@ import email
 from email import policy
 from email.parser import BytesParser
 import html2text
-from ocr import ocr_func
+from OCR import ocr_func
 import os
 
 def process_eml(eml_path):
     with open(eml_path) as email_file:
         email_message = email.message_from_file(email_file)
-    od = '/Users/amratesh/DataspellProjects/Gaied/venv/att'
+    od = os.getcwd() + '/att'
     email_data = {'FROM': email_message['from'], 'TO': email_message['to'], 'SUBJECT': email_message['subject'],
               'DATE': email_message['date'], 'BODY': '', 'ATTACHMENT': ''}
     if email_message.is_multipart():
