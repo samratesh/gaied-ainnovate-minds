@@ -28,6 +28,7 @@ class EmailClassification(BaseModel):
     sub_request_type: str = Field(description="Sub type of request")
     confidence: float = Field(description="Confidence of the model")
     intent: Intent = Field(description="Identify the intent of the email")
+    reason: str = Field(description="Reason for the classification")
 
 def classify_email(email_body):
     preamble = ("\n"
