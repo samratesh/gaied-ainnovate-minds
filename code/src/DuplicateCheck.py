@@ -17,8 +17,11 @@ def duplicate_check(eml_path):
 
     for line in processed_emails:
         if prev in line:
+            processed_emails.close()
+            add_to_processed(eml_path)
             return True
         if h['message-id'] in line:
+            processed_emails.close()
             return True
     return False
 

@@ -3,8 +3,6 @@ from DuplicateCheck import duplicate_check, add_to_processed
 from ProcessEML import process_eml
 from Extraction import extract_data
 
-eml_path = '.123.eml' # Path to the email file
-
 
 def process_email(eml_path):
     if duplicate_check(eml_path): # Check if the email is a duplicate
@@ -15,5 +13,3 @@ def process_email(eml_path):
     extracted_data.key_data.update(request_type.__dict__) # Update the extracted data with the request
     add_to_processed(eml_path) # Add the email to the processed list
     return extracted_data.key_data
-
-print(process_email(eml_path))
