@@ -174,4 +174,9 @@ Through **iterative improvements and AI-powered automation**, we built a **scala
 - **UI:** Streamlit
 
 ## 👥 **Team**
+- [Sreedhar Velagapudi](mailto:sreedhar.velagapudi@gmail.com)
+- [Durgarao Dwarapureddi](mailto:durgarao572@gmail.com)
+- [Seethram Kuruva](mailto:seetharam24@gmail.com)
+- [Chinmay Agarwal](mailto:chinmayagarwal1202@gmail.com)
+- [Amratesh Sharma](mailto:samratesh@gmail.com)
 
