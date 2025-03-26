@@ -142,6 +142,7 @@ Through **iterative improvements and AI-powered automation**, we built a **scala
    ```txt
    streamlit run app.py
    ```
+---
 ##🏗️ **Tech Stack**
 - **AI Models:** Google Gemini, langchain_google_genai
 - **OCR & Data Extraction:** Pytesseract, pdf2image, python-docx  
