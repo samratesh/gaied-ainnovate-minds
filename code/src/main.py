@@ -11,5 +11,8 @@ def process_email(eml_path):
     request_type = classify_email(email_data) # Classify the email
     extracted_data = extract_data(email_data, request_type) # Extract the data
     extracted_data.key_data.update(request_type.__dict__) # Update the extracted data with the request
-    add_to_processed(eml_path) # Add the email to the processed list
+    try:
+        add_to_processed(extracted_data)
+    except:
+        extracted_data.key_data.update({"Duplicate Error": "Email header should have message-id to support duplicate check"})
     return extracted_data.key_data
