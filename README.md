@@ -30,8 +30,16 @@ This solution enhances **efficiency, accuracy, and scalability** in loan servici
 🔗 **[Live Demo](#)** (if applicable)  
 📹 **[Video Demo](#)** (if applicable)  
 
-🖼️ **Screenshots:**  
-![Screenshot 1](link-to-image)  
+🖼️ **Screenshots:** 
+
+**Output**
+
+![Screenshot 1](Screenshot_2.jpeg)  
+
+
+**Duplicate check**
+
+![Screenshot 2](Screenshot_1.jpeg)  
 
 ---
 
@@ -161,4 +169,7 @@ Through **iterative improvements and AI-powered automation**, we built a **scala
 - **Email Processing:** `email.parser`, MIME handling libraries  
 - **Duplicate Detection:** eml.parser, hashing
 - **Data Processing:** pydantic, langchain, json
-- **UI:** Streamlit  
+- **UI:** Streamlit
+
+## 👥 **Team**
+
