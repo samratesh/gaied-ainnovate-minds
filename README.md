@@ -180,5 +180,3 @@ Through **iterative improvements and AI-powered automation**, we built a **scala
 - [Seethram Kuruva](mailto:seetharam24@gmail.com)
 - [Sreedhar Velagapudi](mailto:sreedhar.velagapudi@gmail.com)
 
-
-
