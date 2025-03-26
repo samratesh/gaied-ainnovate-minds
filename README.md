@@ -142,7 +142,7 @@ Through **iterative improvements and AI-powered automation**, we built a **scala
        
    ```txt
    - Generate Gemini API Key 
-        https://aistudio.google.com/app/apikey
+        [Click here](https://aistudio.google.com/app/apikey)
    - Add to LLM.py
         os.environ["GOOGLE_API_KEY"] = "<Enter your API Key here>"
 
