@@ -138,7 +138,16 @@ Through **iterative improvements and AI-powered automation**, we built a **scala
       ```txt
       sudo apt install poppler-utils
       ```
-5. **Run the project**  
+5. **Generate API Key**
+       
+   ```txt
+   - Generate Gemini API Key 
+        https://aistudio.google.com/app/apikey
+   - Add to LLM.py
+        os.environ["GOOGLE_API_KEY"] = "<Enter your API Key here>"
+
+   ```
+6. **Run the project**  
    ```txt
    streamlit run app.py
    ```
