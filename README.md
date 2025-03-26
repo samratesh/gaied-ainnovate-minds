@@ -30,7 +30,7 @@ This solution enhances **efficiency, accuracy, and scalability** in loan servici
 📹 **[Project Demo](https://drive.google.com/file/d/1kW4pSn6t2D-rGK0b4ryxmpibqYCnoFzx/view?usp=sharing)** 
 
 📹 **[Code Walkthrough](https://drive.google.com/file/d/16OPnANrlMc45v09_7X8CcIf0Bd33JjUH/view?usp=sharing)** 
-     *Please download due to size 150Mb
+
 
 🖼️ **Screenshots:** 
 
@@ -174,9 +174,11 @@ Through **iterative improvements and AI-powered automation**, we built a **scala
 - **UI:** Streamlit
 
 ## 👥 **Team**
-- [Sreedhar Velagapudi](mailto:sreedhar.velagapudi@gmail.com)
+- [Amratesh Sharma](mailto:samratesh@gmail.com)
+- [Chinmay Agarwal](mailto:chinmayagarwal1202@gmail.com)
 - [Durgarao Dwarapureddi](mailto:durgarao572@gmail.com)
 - [Seethram Kuruva](mailto:seetharam24@gmail.com)
-- [Chinmay Agarwal](mailto:chinmayagarwal1202@gmail.com)
-- [Amratesh Sharma](mailto:samratesh@gmail.com)
+- [Sreedhar Velagapudi](mailto:sreedhar.velagapudi@gmail.com)
+
+
 
