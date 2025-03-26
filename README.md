@@ -27,8 +27,10 @@ This solution enhances **efficiency, accuracy, and scalability** in loan servici
 ---
 
 ## 🎥 **Demo**  
-📹 **[Project Demo](https://drive.google.com/file/d/1W95BmFbmTgFUlSTHXOaFsv3L8FtvL3mB/view?usp=sharing)** 
-📹 **[Code Walkthrough](#)** 
+📹 **[Project Demo](https://drive.google.com/file/d/1kW4pSn6t2D-rGK0b4ryxmpibqYCnoFzx/view?usp=sharing)** 
+
+📹 **[Code Walkthrough](https://drive.google.com/file/d/16OPnANrlMc45v09_7X8CcIf0Bd33JjUH/view?usp=sharing)** 
+     *Please download due to size 150Mb
 
 🖼️ **Screenshots:** 
 
