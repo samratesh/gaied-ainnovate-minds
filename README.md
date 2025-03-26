@@ -99,7 +99,47 @@ Through **iterative improvements and AI-powered automation**, we built a **scala
 
 ---
 
-## 🏃 **How to Run**  
-1️⃣ **Clone the repository**  
-   ```sh
-   git clone https://github.com/your-repo.git
+## 🏃 **How to Run**
+1. **Clone the repository**  
+   ```txt
+   git clone https://github.com/ewfx/gaied-ainnovate-minds.git
+   ```
+2. **Install dependencies**  
+   ```txt
+   pip install -r requirements.txt
+   ```
+3. **Install Tesseract OCR**
+   - Windows
+     ```txt
+      - Go to the official Tesseract GitHub release page: https://github.com/UB-Mannheim/tesseract/wiki
+      - Download the Windows installer (tesseract-ocr-setup.exe) from the releases section.
+      - Run the installer and complete the installation process.
+     ```
+    - macOS
+      ```txt
+      brew install tesseract
+        ```
+    - Linux
+      ```txt
+      sudo apt install tesseract-ocr
+      ```
+4. **Install Poppler**
+   - Windows
+     ```txt
+      - Download the latest stable Poppler release from the official website: https://poppler.freedesktop.org/
+      - Extract the contents of the downloaded zip file.
+      - Add the bin/ directory to the system PATH.
+     ```
+    - macOS
+      ```txt
+      brew install poppler
+        ```
+    - Linux
+      ```txt
+      sudo apt install poppler-utils
+      ```
+5. **Run the project**  
+   ```txt
+   streamlit run app.py
+   ```
+
