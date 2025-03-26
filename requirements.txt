@@ -1,0 +1,8 @@
+pydantic
+langchain
+langchain_google_genai
+eml-parser
+pytesseract
+pdf2image
+pillow
+streamlit

@@ -1,11 +1,8 @@
-from langchain_core.output_parsers import JsonOutputParser, CommaSeparatedListOutputParser
 from pydantic import BaseModel, Field
 from langchain.prompts import SystemMessagePromptTemplate, ChatPromptTemplate, HumanMessagePromptTemplate
 from langchain.output_parsers import PydanticOutputParser
-from enum import Enum
 from LLM import call_gemini
-import json
-from types import SimpleNamespace
+
 
 class KeyData(BaseModel):
     key_data : dict = Field(description="Key attributes of the request email")

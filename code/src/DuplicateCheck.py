@@ -1,5 +1,3 @@
-import datetime
-import json
 import eml_parser
 
 
@@ -13,7 +11,7 @@ def duplicate_check(eml_path):
     h = parsed_eml.get("header")['header']
     prev = "."
     if 'in-reply-to' in h:
-        prev = h['in-reply-to']
+        prev = h['in-reply-to'][0]
 
     for line in processed_emails:
         if prev in line:

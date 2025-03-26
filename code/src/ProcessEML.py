@@ -1,9 +1,8 @@
 import email
-from email import policy
-from email.parser import BytesParser
-import html2text
-from OCR import ocr_func
 import os
+
+from OCR import ocr_func
+
 
 def process_eml(eml_path):
     with open(eml_path) as email_file:

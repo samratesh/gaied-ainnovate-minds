@@ -1,10 +1,11 @@
-from pydantic import BaseModel, Field
-from langchain.prompts import SystemMessagePromptTemplate, ChatPromptTemplate, HumanMessagePromptTemplate
-from langchain.output_parsers import PydanticOutputParser
 from enum import Enum
+
+from langchain.output_parsers import PydanticOutputParser
+from langchain.prompts import SystemMessagePromptTemplate, ChatPromptTemplate, HumanMessagePromptTemplate
+from pydantic import BaseModel, Field
+
 from LLM import call_gemini
-import json
-from types import SimpleNamespace
+
 
 class RequestTypes(str, Enum):
     Adjustment = "Adjustment"
